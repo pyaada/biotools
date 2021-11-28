@@ -1,8 +1,9 @@
+from import_export.admin import ImportExportModelAdmin
 from django.contrib import admin
 from .models import Post, Comment
 
 @admin.register(Post)
-class PostAdmin(admin.ModelAdmin):
+class PostAdmin(ImportExportModelAdmin, admin.ModelAdmin):
     list_display = ('title', 'slug', 'author', 'publish', 'status')
     list_filter = ('status', 'created', 'publish', 'author')
     search_fields = ('title', 'body')
