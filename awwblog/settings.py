@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '-+c=s=r3w#9!5oxqvdcm8(tbgq)zdqm6z$wnmiywcgc=___z)n'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
-    'ckeditor', 
+    'ckeditor',
     'ckeditor_uploader',
     'taggit',
     'django.contrib.sites',
@@ -140,7 +140,7 @@ CKEDITOR_UPLOAD_PATH="uploads/"
 
 CKEDITOR_CONFIGS = {
     'default': {
-     
+
         # 'skin': 'moono',
         # # 'skin': 'office2013',
         # 'toolbar_Basic': [

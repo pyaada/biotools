@@ -1,0 +1,17 @@
+# Distribution / packaging
+.Python
+awwblog/
+env/
+*.sqlite3
+.vscode/
+# Project asset folders
+media/
+# Database
+db.sqlite3
+# Editor directories and files
+.vscode
+# Byte-compiled / optimized / DLL files
+__pycache__/
+blog/__pycache__/
+*.py[cod]
+*$py.class
