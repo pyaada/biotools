@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '-+c=s=r3w#9!5oxqvdcm8(tbgq)zdqm6z$wnmiywcgc=___z)n'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [cicbiotools.herokuapp.com]
 
 SITE_ID = 1
 
