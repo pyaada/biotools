@@ -25,7 +25,7 @@ SECRET_KEY = '-+c=s=r3w#9!5oxqvdcm8(tbgq)zdqm6z$wnmiywcgc=___z)n'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = [cicbiotools.herokuapp.com]
+ALLOWED_HOSTS = [https://cicbiotools.herokuapp.com]
 
 SITE_ID = 1
 
