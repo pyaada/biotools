@@ -1,6 +1,6 @@
 # Distribution / packaging
 .Python
-awwblog/
+biotoolsenv/
 env/
 *.sqlite3
 .vscode/
